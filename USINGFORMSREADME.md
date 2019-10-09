@@ -1,0 +1,15 @@
+"Using Forms ReadMe" 
+What kind of information can you capture using a form? 
+
+(List as many as you can) There are all kinds of numbers including dates, time, phone numbers and regular numbers. One can also input emails, passwords, a file, a url, and regular text. These are just some of the things you can capture. It is extremely powerful and versatile. 
+
+What types of tags can you use to create forms? 
+
+To create a form one would use the <form> tag. Within the form tag there are multiple specific elements than the list I listed above. For example, there are several tags for dates. There are tags for, week, month, time, date, date-timelocal. 
+
+What are the benefits / disadvantages of using some tags over others? 
+
+I think some tags are less specific and hence can be used in more circumstances. For example textarea could be used to collect emails, passwords, names etc. However, just because it can be used for all of those tags it is probably better to use a more specific tag for each specific situation. For example using the password's tag for specific passwords instead of just the textarea tag. The reason why is even though the password's tag is less veratile it is more accomadating to it's area of domain. 
+
+How do you start to programmatically use the data provided by the user? 
+I think patterns are the way to go. For example if I write a piece of code that is useful in a program, I try not to have to write it twice. I write it once and apply it to all of the areas where applicable for my program. So I guess writting the data to collect one answer than apply that code to every item you have to collect.
