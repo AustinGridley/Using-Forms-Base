@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Create A Login</title>
+        <!--Create a form for registering a new user with the following information: First Name, Last Name, Email, Phone, Age, Password, and Password Confirmation 
+        Apply appropriate validation for each input 
+        Create a login form 
+        Create a form for forgot password  
+        Stretch your Thoughts: Answer the following questions to help stretch your thoughts:  
+
+        What kind of information can you capture using a form? (List as many as you can) 
+        What types of tags can you use to create forms?  
+        What are the benefits / disadvantages of using some tags over others? 
+        How do you start to programmatically use the data provided by the user? -->
+    </head>
+    <body>
+        <h1>Create a Login for Helio's Underbelly</h1>
+        <p>
+            <form action="userName">Create a username:
+            <input type="text" id="userName" name="userName" required minlength="4" maxlength="10" size="10">
+            </form>
+        </p>
+        <p>
+            <form action="firstName">What is your first name?
+            <input type="text" id="firstName" name="firstName" required minlength="4" maxlength="10" size="10">
+            </form>
+        </p>
+        <p>
+            <form action=>What is your last name?
+            <input type="text" id="lastName" name="lastName" required minlength="4" maxlength="10" size="10">
+            </form>
+        </p>
+        <p>
+            <form action="email">What is your email?
+            <input type="text" id="email" name="email" required minlength="4" maxlength="38" size="40">
+            </form>
+        </p>
+        <p>
+            <form action="phoneNumber">What is your phone number?
+            <input type="tel" id="phoneNumber" name="phoneNumber" required minlength="4" maxlength="11" size="13">
+            </form>
+        </p>
+        <p>
+            <form action="age">How old are you?:
+            <input type="number" id="age" name="age" required minlength="1" maxlength="3" size="1">
+        </p>
+        <p>
+            <form action="password">Make a password:
+            <input type="password" id="password" name="password" required minlength="4" maxlength="8" size="10">
+            </form>
+        </p>
+        <p>
+            <form action="passwordConfirmation">Please confirm your password:
+            <input type="password" id="passwordConfirmation" name="passwordConfirmation" required minlength="4" maxlength="8" size="10">
+            </form>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+        <h2><a href="http://localhost:8080/Using%20Forms/HomeIndex.html"> <button type="button" onclick>Login Page</button></a> <a href="http://localhost:8080/Using%20Forms/RecoverInfo.html"><button type="button">Forgot Your Password or Username?</button></a></h2>
+</body>
+</html>
